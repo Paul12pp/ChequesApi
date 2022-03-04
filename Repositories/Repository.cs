@@ -26,12 +26,15 @@ namespace ChequesApi.Repositories
         {
             return _dbContext.Set<TEntity>();
         }
+        public async Task InsertAsync(TEntity entity)
+        {
+            _dbSet.Add(entity);
+            await _unitOfWork.SaveChangesAsync();
+        }
         public void Insert(TEntity entity)
         {
-
             _dbSet.Add(entity);
             _unitOfWork.SaveChanges();
-
         }
         public void Update(TEntity entity)
         {

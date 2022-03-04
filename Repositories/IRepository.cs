@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace ChequesApi.Repositories
 {
@@ -8,6 +9,7 @@ namespace ChequesApi.Repositories
         TEntity Find(params object[] keyValues);
         IEnumerable<TEntity> FindAll();
         void Insert(TEntity entity);
+        Task InsertAsync(TEntity entity);
         void InsertRange(IEnumerable<TEntity> entities);
         void Update(TEntity entity);
         void UpdateRange(IEnumerable<TEntity> entities);

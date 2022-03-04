@@ -11,6 +11,7 @@ namespace ChequesApi.Repositories
         public DbContext Context { get; }
         void BeginTransaction();
         void SaveChanges();
+        Task SaveChangesAsync();
         bool Commit();
         void Rollback();
         IRepository<TEntity> Repository<TEntity>();
