@@ -33,6 +33,7 @@ namespace ChequesApi
             services.AddSingleton<DbContext, ChequesDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IRepository<Concepto>, Repository<Concepto>>();
+            services.AddScoped<IRepository<Proveedor>, Repository<Proveedor>>();
             services.AddControllers();
 
             services.AddSwaggerGen(c =>

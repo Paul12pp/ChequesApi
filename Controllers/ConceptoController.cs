@@ -17,18 +17,12 @@ namespace ChequesApi.Controllers
         {
             _repo = repo;
         }
-        [HttpGet("GetById")]
+        [HttpGet("{id}")]
         public ActionResult<ConceptoViewModel> GetById(int id)
         {
             try
             {
-
-                //using var _dbContext = new FacturacionDbContext();
-                //var _repo = new ArticuloRepository(_dbContext);
-                //var test = _repo.Find(id);
-                //var test2 = _repo.SumTwoDBNumbers();
-
-                var concepto = _repo.Find(id);//_dbContext.Articulos.FirstOrDefault(x => x.Id == id);
+                var concepto = _repo.Find(id);
 
                 if (concepto == null) return NotFound();
 
@@ -42,15 +36,13 @@ namespace ChequesApi.Controllers
             }
             catch (Exception)
             {
-
                 throw;
             }
         }
 
-        [HttpGet("GetAll")]
+        [HttpGet]
         public ActionResult<List<ConceptoViewModel>> GetAll()
         {
-
             var articulos = _repo.FindAll();
             List<ConceptoViewModel> result = new List<ConceptoViewModel>();
             foreach (var item in articulos)
@@ -89,11 +81,9 @@ namespace ChequesApi.Controllers
         }
 
         [HttpPut]
-        public ActionResult UpdateArticulo(ConceptoViewModel viewModel)
+        public ActionResult UpdateConcepto(ConceptoViewModel viewModel)
         {
-            // using var _dbContext = new FacturacionDbContext();
-
-            var existing = _repo.Find(viewModel.Id); //_dbContext.Articulos.FirstOrDefault(x => x.Id == viewModel.Id);
+            var existing = _repo.Find(viewModel.Id);
 
             if (existing == null)
                 return NotFound();
@@ -107,9 +97,7 @@ namespace ChequesApi.Controllers
         [HttpDelete]
         public ActionResult Delete(int id)
         {
-            //using var _dbContext = new FacturacionDbContext();
-            
-            var concepto = _repo.Find(id);//_dbContext.Articulos.FirstOrDefault(x => x.Id == id);
+            var concepto = _repo.Find(id);
             concepto.Estado = false;
             _repo.Update(concepto);
             return Ok();
