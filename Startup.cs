@@ -51,7 +51,7 @@ namespace ChequesApi
                     ValidateAudience = false,
                     ValidAudience = Configuration["JWT:Audience"],
                     ValidIssuer = Configuration["JWT:Issuer"],
-                    ClockSkew = TimeSpan.Zero,// It forces tokens to expire exactly at token expiration time instead of 5 minutes later
+                    // ClockSkew = TimeSpan.Zero,// It forces tokens to expire exactly at token expiration time instead of 5 minutes later
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Key"])),
                     ValidateLifetime = true,
                 };
