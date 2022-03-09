@@ -1,6 +1,7 @@
 ﻿using ChequesApi.Models.Entities;
 using ChequesApi.Repositories;
 using ChequesApi.ViewModels.Concepto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ namespace ChequesApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ConceptoController : ControllerBase
     {
         private readonly IRepository<Concepto> _repo;

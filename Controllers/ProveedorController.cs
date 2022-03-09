@@ -1,6 +1,7 @@
 ﻿using ChequesApi.Models.Entities;
 using ChequesApi.Repositories;
 using ChequesApi.ViewModels.Proveedor;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -12,6 +13,7 @@ namespace ChequesApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProveedorController : ControllerBase
     {
         private readonly IRepository<Proveedor> _repo;

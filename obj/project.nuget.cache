@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xNdAHsFw6gFNWYJsxHXZcYI+o9vVVO17qh80dC067l//A0kWsFkzG83Y207kpb4w4TNjIRmC/m6UpRQy0fm1JA==",
+  "dgSpecHash": "ohQOaX7WNB45iWpS5sAi6Ug4EcZWyb6hsKADep4J6GNt/bWBRPh6BlWMm9aeGIQB+r7BDapXlYZxg2ta3yH3Ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\ChequesApi\\ChequesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

@@ -7,6 +7,7 @@ C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\ChequesApi.runtime
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\ChequesApi.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\ChequesApi.pdb
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -28,7 +29,11 @@ C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.Identity
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -52,6 +57,7 @@ C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.csproj.
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.AssemblyInfoInputs.cache
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.AssemblyInfo.cs
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\staticwebassets\ChequesApi.StaticWebAssets.Manifest.cache
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\staticwebassets\ChequesApi.StaticWebAssets.xml
@@ -61,8 +67,3 @@ C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.csproj.
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.dll
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.pdb
 C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.genruntimeconfig.cache
-C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\USER\source\repos\ChequesApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\USER\source\repos\ChequesApi\obj\Debug\netcoreapp3.1\ChequesApi.MvcApplicationPartsAssemblyInfo.cs

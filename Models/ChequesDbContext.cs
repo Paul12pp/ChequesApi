@@ -12,6 +12,7 @@ namespace ChequesApi.Models
         public DbSet<Concepto> Conceptos { get; set; }
         public DbSet<Proveedor> Proveedores { get; set; }
         public DbSet<Solicitud> Solicitudes { get; set; }
+        public DbSet<User> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Data Source=.;Initial Catalog=ChequesDB;Integrated Security=True;Pooling=False");
